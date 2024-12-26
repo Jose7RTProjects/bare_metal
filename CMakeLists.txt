@@ -43,7 +43,8 @@ set(sources_SRCS
 # Include directories
 #
 set(include_path_DIRS
-
+    ${PROJ_PATH}/drivers/CMSIS/Include
+    ${PROJ_PATH}/drivers/CMSIS/Device/ST/STM32F4xx/Include
 )
 
 #
@@ -51,6 +52,7 @@ set(include_path_DIRS
 #
 set(symbols_SYMB
     # Encapsulate them with double quotes for safety purpose
+    "STM32F411xE"
 )
 
 # Executable files
