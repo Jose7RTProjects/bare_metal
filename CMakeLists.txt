@@ -37,6 +37,8 @@ set(EXECUTABLE                      ${CMAKE_PROJECT_NAME})
 set(sources_SRCS
     ${PROJ_PATH}/src/main.c
     ${PROJ_PATH}/src/startup.c
+    ${PROJ_PATH}/drivers/custom/led.c
+    ${PROJ_PATH}/drivers/custom/button.c
 )
 
 #
@@ -45,6 +47,8 @@ set(sources_SRCS
 set(include_path_DIRS
     ${PROJ_PATH}/drivers/CMSIS/Include
     ${PROJ_PATH}/drivers/CMSIS/Device/ST/STM32F4xx/Include
+    ${PROJ_PATH}/src
+    ${PROJ_PATH}/drivers/custom
 )
 
 #
