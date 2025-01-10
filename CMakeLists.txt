@@ -39,6 +39,7 @@ set(sources_SRCS
     ${PROJ_PATH}/src/startup.c
     ${PROJ_PATH}/drivers/custom/led.c
     ${PROJ_PATH}/drivers/custom/button.c
+    ${PROJ_PATH}/drivers/custom/systick.c
 )
 
 #
