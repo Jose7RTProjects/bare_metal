@@ -1,7 +1,7 @@
 #include "systick.h"
 
 // By default the frequency of the MCU is 16 MHz
-#define ONE_MSEC_LOAD  1600
+#define ONE_MSEC_LOAD  16000
 
 void systick_ms_delay(uint32_t delay)
 {
