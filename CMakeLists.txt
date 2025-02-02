@@ -40,6 +40,7 @@ set(sources_SRCS
     ${PROJ_PATH}/drivers/custom/led.c
     ${PROJ_PATH}/drivers/custom/button.c
     ${PROJ_PATH}/drivers/custom/systick.c
+    ${PROJ_PATH}/drivers/custom/tim.c
 )
 
 #

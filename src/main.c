@@ -1,15 +1,14 @@
 #include "led.h"
-#include "systick.h"
-
-int btn_state;
+#include "tim.h"
 
 int main(void)
 {
     led_init();
+    tim2_1hz_init();
 
     while(1)
     {
         led_toggle();
-        systick_ms_delay(10000);
+        tim2_s_delay(1);
     }
 }

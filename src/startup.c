@@ -1,5 +1,3 @@
-// Revisar si es necesario:
-// #include <stdint.h> para usar uint32_t en vez de unsiged int
 extern unsigned int _stored_data, _sdata, _edata, _sbss, _ebss, _estack, _erodata;
 extern int main(void);
 
